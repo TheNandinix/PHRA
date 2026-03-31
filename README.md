@@ -107,25 +107,28 @@ The system successfully:
 
 ## ▶️ How to Run the Project
 
-### 1. Clone the Repository
+## ▶️ Setup & Run Instructions
 
+### 1. Clone the repository
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/TheNandinix/PHRA
 cd PHRA
 ```
 
-### 2. Install Dependencies
-
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Run the Application
+### 3. Train the model
+```bash
+python src/model.py
+```
 
+### 4. Run the application
 ```bash
 streamlit run app/app.py
 ```
-
 ---
 
 ## 📊 Output
